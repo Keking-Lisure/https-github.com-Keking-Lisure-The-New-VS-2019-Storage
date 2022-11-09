@@ -5,12 +5,12 @@ const int S_PER_H = 3600;       // seconds in an hour
 const double M_PER_K = 0.62137; // miles in a kilometer
 int main(void)
 {
-    double distk, distm;  // distance run in km and in miles
+    double distk, distm;  // //distance run in km and in miles
     double rate;          // average speed in mph
     int min, sec;         // minutes and seconds of running time
     int time;             // running time in seconds only
     double mtime;         // time in seconds for one mile
-    int mmin, msec;       // minutes and seconds for one mile
+    int mmin, msec;    //   // minutes and seconds for one mile
 
     printf("This program converts your time for a metric race\n");
     printf("to a time for running a mile and to your average\n");
